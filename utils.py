@@ -6,6 +6,14 @@ from tkinter import font # Importación módulo específico de fuentes
 ANCHO_VENTANA = 700
 ALTO_VENTANA = 400
 
+# Función para centrar la ventana en la pantalla
+def centrar_ventana(ventana, ANCHO_VENTANA, ALTO_VENTANA): 
+    screen_width = ventana.winfo_screenwidth() 
+    screen_height = ventana.winfo_screenheight()
+    center_x = int(screen_width / 2 - ANCHO_VENTANA / 2)
+    center_y = int(screen_height / 2 - ALTO_VENTANA / 2)
+    ventana.geometry(f"{ANCHO_VENTANA}x{ALTO_VENTANA}+{center_x}+{center_y}")
+
 # Colores
 
 
