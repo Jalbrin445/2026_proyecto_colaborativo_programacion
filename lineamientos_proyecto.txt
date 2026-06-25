@@ -25,12 +25,12 @@ Criterios de nombramiento:
     necesita más de una palabra para nombrar una constante se utilizará: UPPER_SNAKE_CASE
 
     Para nombrar elementos estructurales como clases y métodos se utilizará, por un lado, camelCase
-    para los métodos y PascalCase para las funciones, es decir, si se necesita nombrar una función 
+    para los métodos y PascalCase para las clases, es decir, si se necesita nombrar una clase 
     por ejemplo cliente mayorista se escribirá de la siguiente manera: ClienteMayorista; pero si 
     se quiere nombrar un método como comprar producto se utilizará la siguiente sintaxis: comprarProducto.
 
-    Para nombrar funciones se utilizará camelCase, es decir, la misma estructura que se utilizará para nombrar
-    los métodos.
+    Para nombrar funciones y métodos se utilizará snake_case, es decir, la misma estructura que se utilizará para nombrar
+    las variables. Por ejemplo: comprar_producto, calcular_total.
 
     Para nombrar los archivos se utilizará sintaxis de una sola palabra para escribir el nombre al cual hace
     referencia lo que contiene el archivo.

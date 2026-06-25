@@ -10,6 +10,6 @@ ALTO_VENTANA = 400
 
 
 # Fuentes
-F_T_P = font.Font(family="Helvetica",size=20, weigth="bold",slant="roman")
-F_S_P = font.Font(family="Helvetica",size=16, weigth="bold",slant="roman")
-F_L_P = font.Font(family="Helvetica",size=12, weigth="bold",slant="roman")
+FUENTE_TITULO_PRINCIPAL = font.Font(family="Helvetica", size=20, weight="bold")
+FUENTE_SECUNDARIA = font.Font(family="Helvetica", size=16, weight="bold")
+FUENTE_LABEL = font.Font(family="Helvetica", size=12, weight="bold")
