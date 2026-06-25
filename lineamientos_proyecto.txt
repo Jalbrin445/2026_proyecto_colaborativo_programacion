@@ -1,0 +1,70 @@
+Lineamientos del proyecto
+
+Resumen del documento:
+
+    En este documento se definen los lineamientos
+    que se van a seguir en el desarrollo del proyecto
+    entre los cuales se encuentra:
+
+        * Definción de los criterios para nombrar variables, consantes
+        y elementos estructurales como clases y métodos.
+        
+        * Pautas de códificación propias del lenguaje.
+
+Criterios de nombramiento:
+
+    Para variables se utilizará: snake_case, es decir, para nombrar un atributo
+    de una clase o nombrar una variable (valor de cambia con el transcurso de la
+    ejecución del código) se utilizará snake_case, por ejemplo, para nombrar la
+    variable nombre usuario se utilizará la siguiente sintaxis: nombre_usuario.
+
+    Para constantes se usará: UPPERCASE, el cual define los nombres de las constantes
+    con mayúsculas, es decir, si se quiere nombrar una variable que no cambia su valor 
+    en el transcurso de la ejecución del código se debe utilizar UPPERCASE, por ejemplo,
+    para nombrar la constante PI se utilizará la siguiente sintaxis: PI, y si se 
+    necesita más de una palabra para nombrar una constante se utilizará: UPPER_SNAKE_CASE
+
+    Para nombrar elementos estructurales como clases y métodos se utilizará, por un lado, camelCase
+    para los métodos y PascalCase para las funciones, es decir, si se necesita nombrar una función 
+    por ejemplo cliente mayorista se escribirá de la siguiente manera: ClienteMayorista; pero si 
+    se quiere nombrar un método como comprar producto se utilizará la siguiente sintaxis: comprarProducto.
+
+    Para nombrar funciones se utilizará camelCase, es decir, la misma estructura que se utilizará para nombrar
+    los métodos.
+
+    Para nombrar los archivos se utilizará sintaxis de una sola palabra para escribir el nombre al cual hace
+    referencia lo que contiene el archivo.
+
+Comentarios y documentación:
+
+    En python se utilizará Docstrings para documentar lo que realizan las
+    funciones y clases.
+
+    Se utilizarán comentarios de una linea para identificar lo que realiza una constante si esta es requerida.
+
+    Se usará un archivo README.md para documentar la descripción global del proyecto, es decir,
+    dependencias y demás.
+
+Modularización:
+
+    Se utilizará una estructura modular, es decir, de varios archivos
+    integrados entre sí para separar las funcionalidades del proyecto.
+
+Control de versiones y colaboración:
+
+    Como herramienta de control de versiones y colaboración se usará Git + GitHub y para
+    las ramas se seguirá la siguiente estructura:
+
+        + Main: solo código final, no se pushea directamente aquí.
+        + Develop: rama de integración, es la versión en desarrollo.
+        + Se creara una rama por cada funcionalidad desde develop, es decir, cada
+        integrante tendrá su rama.
+    
+    Reglas de colaboración:
+
+        + Nunca voy a hacer push directo a develop o main.
+        + Todo trabajo se hace en la rama propia en el espacio local.
+        + Para integrar tu trabajo, se abrirá un Pull Request (PR) de la rama local hacia develop.
+        + Se debe actualizar el proyecto antes de iniciar cualquier modificación con el fin de minimizar conflictos.
+        + Si se crean conflictos se debe enviar un mensaje interno al grupo de Teams para corroborar el mensaje y poder definir soluciones.
+        
